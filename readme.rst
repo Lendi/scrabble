@@ -1,18 +1,22 @@
-Scrabble Problem Statement:
---------------------------
+Problem Statement:
+------------------
 Write a program that takes a Scrabble rack as a command-line argument and prints all valid Scrabble words that can be constructed from that rack, along with their Scrabble scores, sorted by score. 
 
 Requirements:
 -------------
 
-(Input) -> A word containing 7 alphabets where repetitions are allowed.
+(Input)
+- A word containing 7 alphabets where repetitions are allowed.
 
-(Data)  -> List containg all the alphabets and thier Scrabble values.
-        -> List of valid words in a file called swopods.txt 
+(Data) 
+- List containg all the alphabets and thier Scrabble values.
+- List of valid words in a file called swopods.txt 
 
-(Conditions) -> Size of the smallest possible string is 2
-             -> The list of words are arranged in order
-	     -> Input should be in Uppercase.
+(Conditions) 
+- Size of the smallest possible string is 2
+- The list of words are arranged in order
+- Input should be in Uppercase.
+
 Procedure: 
 ----------
 + Read 7 letters using command line argument.
