@@ -5,17 +5,16 @@ Write a program that takes a Scrabble rack as a command-line argument and prints
 Requirements:
 -------------
 
-(Input)
-- A word containing 7 alphabets where repetitions are allowed.
+(Input) - A word containing 7 alphabets where repetitions are allowed.
 
 (Data) 
-- List containg all the alphabets and thier Scrabble values.
-- List of valid words in a file called swopods.txt 
+1. List containg all the alphabets and thier Scrabble values.
+#. List of valid words in a file called swopods.txt 
 
 (Conditions) 
-- Size of the smallest possible string is 2
-- The list of words are arranged in order
-- Input should be in Uppercase.
+1. Size of the smallest possible string is 2
+#. The list of words are arranged in order
+#. Input should be in Uppercase.
 
 Procedure: 
 ----------
