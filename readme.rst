@@ -5,16 +5,17 @@ Write a program that takes a Scrabble rack as a command-line argument and prints
 Requirements:
 -------------
 
-(Input) - A word containing 7 alphabets where repetitions are allowed.
+Input - A word containing 7 alphabets where repetitions are allowed.
 
 
-(Data) 
+Data: 
 
 1. List containg all the alphabets and thier Scrabble values.
-#. List of valid words in a file called swopods.txt 
+#. List of valid words in a file called sowpods.txt 
 
 
-(Conditions)
+Conditions:
+
  
 1. Size of the smallest possible string is 2.
 #. The list of words are arranged in order.
@@ -24,9 +25,9 @@ Procedure:
 ----------
 + Read 7 letters using command line argument.
 + Create a dictionary containg all the alphabets and thier Scrabble values.
-+ Store all the words of swopods.txt into a list.
++ Store all the words of sowpods.txt into a list.
 + Find all the possible strings of 7 letters using permutations,remove duplicates and store them into a list.
 + Compare both the lists  and store all the legal words in an another list.
-+ Count the score of each word in the above list.
-+ Print the highest score word.  
++ Count the score of each word in the above list , sort them on the basis of their scores using sorting technique.
++ Print the words along with their scores.  
 
