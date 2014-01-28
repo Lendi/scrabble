@@ -7,13 +7,17 @@ Requirements:
 
 (Input) - A word containing 7 alphabets where repetitions are allowed.
 
+
 (Data) 
+
 1. List containg all the alphabets and thier Scrabble values.
 #. List of valid words in a file called swopods.txt 
 
-(Conditions) 
-1. Size of the smallest possible string is 2
-#. The list of words are arranged in order
+
+(Conditions)
+ 
+1. Size of the smallest possible string is 2.
+#. The list of words are arranged in order.
 #. Input should be in Uppercase.
 
 Procedure: 
