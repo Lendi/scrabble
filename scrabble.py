@@ -5,7 +5,7 @@ import itertools
 
 inputIs = sys.argv[1]
 all_possible = []
-posword = []
+used_words = []
 
 from itertools import permutations
 for r in range(2,8):#range is taken assuming that string passed is of length 7
