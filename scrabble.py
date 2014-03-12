@@ -5,6 +5,7 @@ import itertools
 
 inputIs = sys.argv[1]
 all_possible = []
+used_words = []
 
 from itertools import permutations
 for r in range(2,8):#range is taken assuming that string passed is of length 7
@@ -33,7 +34,7 @@ for word in valid_words:
 	a=(score,word)
 	score_of_words.append(a)
 
-required_set = sorted(score_of_words,reverse=True)#soretd in decending order
+required_set = sorted(score_of_words,reverse=True)#soretd in descending order
 
 for score_wise in required_set:
 	print score_wise
