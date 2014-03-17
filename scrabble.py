@@ -18,10 +18,8 @@ words = [line.strip() for line in open("/home/charvitha/ts/scrabble/sowpods.txt"
 valid_words = []
 for each in unique_words:
         if each in words:
-		valid_word = [each.lower()] #stores a  legal word
-                valid_words.extend(valid_word)#all legal words
-                # Can replace the above two with valid_words.append(each.lower())
-
+                valid_words.append(each.lower())#all legal words
+                
 scores = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
          "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3,
          "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1,
